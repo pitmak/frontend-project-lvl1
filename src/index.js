@@ -1,10 +1,12 @@
 import readlineSync from 'readline-sync';
-import even from './even.js';
-import calc from './calc.js';
+import even from './games/even.js';
+import calc from './games/calc.js';
+import gcd from './games/gcd.js';
 
 const games = {
   even,
   calc,
+  gcd,
 };
 
 export default (game) => {
